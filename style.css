@@ -1,0 +1,28 @@
+img{
+    width: 300px;
+    height: fit-content;
+}
+.title{
+    text-align: center;
+    align-content: center;
+}
+
+.description{
+    background-color: #ece494;
+}
+
+.ingredients{
+    background-color: #97db17;
+}
+
+.directions{
+    background-color: #eccf72;
+}
+
+.header{
+    font-size:20px;
+}
+
+.content{
+    font-size:13px;
+}
