@@ -57,6 +57,32 @@ img{
     border-bottom:4px solid #20251b33;
 }
 
+.selection li{
+    display:inline-block;
+    background-color:#eccf72;
+    border: 1px solid #ece494;
+    padding: 8px;
+    margin: 0px;
+    font-size: 16px;
+}
+
+.selection li:hover{
+    background-color:#ece494;
+    border: 1px solid #ece494;
+}
+
+.selection li:active{
+    background-color:#a86d14;
+    border: 1px solid #ece494;
+}
+
+.selection {
+    list-style: none;
+    display:inline-block;
+    padding: 0px;
+    font-size:0px;
+}
+
 section{
     margin: -5px;
     border-radius: 5px 5px 0px 0px;
