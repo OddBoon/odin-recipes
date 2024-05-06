@@ -1,22 +1,35 @@
 body{
     background-color: #a86d14;
     color: #ccddba;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin:15px auto;
+    padding: 20px;
 }
 
 img{
     width: 300px;
     height: fit-content;
+    border-bottom:#20251b33 3px solid;
+    border-right:#20251b33 3px solid;
 }
 .title{
     text-align: center;
     align-content: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
 .description,
 .directions{
     background-color: #ece494;
     color:#20251b;
+}
+
+.description .header,
+.directions  .header {
+    background-color:#eccf72;
+}
+
+.ingredients .header{
+    background-color: #ece494;
 }
 
 .ingredients{
@@ -25,11 +38,27 @@ img{
 }
 
 .header{
+    display:inline;
     font-size:26px;
+    padding: 10px;
+    border-bottom: 1px solid #20251b33;
+    border-top: 1px solid #20251baa;
+    border-radius: 5px 5px 2px 2px;
+    margin: 20px;
 }
 
 .contents,
 .contents li{
     font-size: 20px;
+}
+
+.contents{
+    padding: 10px 36px;
+    border-bottom:4px solid #20251b33;
+}
+
+section{
+    margin: -5px;
+    border-radius: 5px 5px 0px 0px;
 }
 
